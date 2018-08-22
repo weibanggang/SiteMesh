@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<decorators defaultdir="/lay/">
+    <!--定义不过滤的页面-->
+    <!--<excludes>
+            不过滤路径
+        <pattern>/jsp/*</pattern>
+    </excludes>-->
+    <!-- 定义需要修饰的页面 -->
+    <decorator name="book" page="lay_style.jsp">
+        <!-- 定义需要修饰的文件夹-->
+        <pattern>/jsp/*</pattern>
+    </decorator>
+</decorators>
